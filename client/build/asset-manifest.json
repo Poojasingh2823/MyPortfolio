@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.692e1a2c.css",
+    "main.js": "/static/js/main.a67b11fc.js",
+    "static/js/453.258b012d.chunk.js": "/static/js/453.258b012d.chunk.js",
+    "static/media/MyImg.png": "/static/media/MyImg.dede731897c45877e4c6.png",
+    "static/media/Pooja_CV.pdf": "/static/media/Pooja_CV.02ca3aba1ff5b822535e.pdf",
+    "static/media/Vidhun.png": "/static/media/Vidhun.bc2f5f1fce60275f4db0.png",
+    "static/media/contact.jpg": "/static/media/contact.c1fe53225ea351928fc7.jpg",
+    "static/media/bloodbank.jpg": "/static/media/bloodbank.078896e19d92deaa2a52.jpg",
+    "index.html": "/index.html",
+    "main.692e1a2c.css.map": "/static/css/main.692e1a2c.css.map",
+    "main.a67b11fc.js.map": "/static/js/main.a67b11fc.js.map",
+    "453.258b012d.chunk.js.map": "/static/js/453.258b012d.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.692e1a2c.css",
+    "static/js/main.a67b11fc.js"
+  ]
+}
