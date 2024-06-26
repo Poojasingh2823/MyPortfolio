@@ -1,26 +1,29 @@
-import express, {static as static_, json} from "express";
-import cors from "cors";
-import { config } from "dotenv";
-import { join } from "path";
+
+const express = require("express");
+const cors = require("cors");
+const dotenv = require("dotenv");
+const path = require('path')
 
 //dotenv configuartion
-config();
-
-//rest object
-const app = express();
+dotenv.config();
 
 //midlewares
 app.use(cors());
-app.use(json());
+app.use(express.json());
+
+
+//rest object
+const app = express(); 
+
 
 //Static Files
-app.use(static_(join(__dirname,'./client/build')))
+app.use(express.static(path.join(__dirname,'./client/build')))
 
 //routes
 app.use("/api/v1/portfolio", require("./routes/portfolioRoute"));
 
 app.get('*',function(req,res){
-  res.sendFile(join(__dirname,'./client/build/index.html'))
+  res.sendFile(path.join(__dirname,'./client/build/index.html'))
 })
 
 //port
