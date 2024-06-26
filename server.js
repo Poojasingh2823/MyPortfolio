@@ -7,13 +7,15 @@ const path = require('path')
 //dotenv configuartion
 dotenv.config();
 
+const app = express(); 
+
+
 //midlewares
 app.use(cors());
 app.use(express.json());
 
 
 //rest object
-const app = express(); 
 
 
 //Static Files
